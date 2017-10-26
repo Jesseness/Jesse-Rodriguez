@@ -1,0 +1,51 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #a3d5d3;
+}
+
+ul {
+  flex-flow: right;
+  border: 1px solid;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-style: Tangerine;   
+}
+.container {
+  padding: 20px;
+  width: 100%;
+  border: 1px solid;
+  float: right;  
+}
+
+.nav {
+  background-color: blue;
+  
+}
+
+.graph {
+  border: 1px solid black;
+}
+
+img {
+  width: 300px;
+  float: left;
+  
+}
+
+h1 {
+  color: white;
+  border: 1px;
+  clear: both;
+}
+
+.clear {
+  clear: both;
+}
