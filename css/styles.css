@@ -6,38 +6,9 @@
 
 body {
   background-color: #a3d5d3;
-}
+  font-family: 'Roboto', serif;
+  font-size: 15px;
 
-ul {
-  flex-flow: right;
-  border: 1px solid;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-  font-style: Tangerine;   
-}
-.container {
-  padding: 20px;
-  width: 100%;
-  border: 1px solid;
-  float: right;  
-}
-
-.nav {
-  background-color: blue;
-  
-}
-
-.graph {
-  border: 1px solid black;
-}
-
-img {
-  width: 300px;
-  float: left;
-  
 }
 
 h1 {
@@ -45,6 +16,58 @@ h1 {
   border: 1px;
   clear: both;
 }
+
+
+ul {
+  border: 1px solid;
+  background: #5ba9a6;
+  
+}
+
+p {
+  font-family: 'PT Serif', serif;
+}
+
+img {
+  width: 300px;
+  float: left;
+  border: solid 1px;
+}
+
+.box {
+  border: 1px solid;
+  background: #5ba9a6;
+}
+nav {
+  text-align: center;
+  margin: 20px 0 0;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+}
+ 
+.container {
+  padding: 20px;
+  width: 100%;
+  border: 1px solid;
+  float: right;  
+}
+
+.graph {
+  border: 1px solid black;
+}
+
+button.resume {
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translate( -50%, 0);
+}
+
 
 .clear {
   clear: both;
